@@ -1,0 +1,149 @@
+body, html{
+	height: 100%;
+}
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 10px;
+        height: 100vh;
+	background: solid (white);
+}
+
+.log-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	background-color: #ffffff;
+	width: 350px;
+	border: none solid #d2d2d2;
+	height: 400px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: -10;
+	background-color: #ffffff;
+	width: 345px;
+	border: 0px solid #d2d2d2;
+	height: 400px;
+}
+
+
+.logo-img{
+	margin: 34px 0;
+	width: 185px;
+}
+.log-form input{
+	color: #737373;
+	width: 77%;
+	margin: 3px 0;
+	padding: 11px;
+	font-size: 11px;
+	border: 1px solid #d2d2d2;
+	background-color: #fbfbf8;
+	border-radius: 2px;
+}
+
+.btn{
+	width: 77%;
+	background-color: #47afff;
+	color: white;
+	margin: 13px 0;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+	font-weight: bolder;
+}
+.ord{
+	display: flex;
+	margin: 0px 0;
+
+}
+.left{
+	background-color: #d2d2d2;
+	width: 110px;
+	margin: 9.5px 10px;
+}
+.center{
+	color: #8e8e8e;
+	font-weight: 800;
+}
+.facebook-login{
+	display: flex;
+	margin: 12px 0;
+}
+
+.fb-img{
+	width: 16px;
+	height: 16px;
+	margin: 10px;
+}
+.face-text{
+	color: #1D3C78;
+	margin: 9px 0;
+	font-size: 14px;
+}
+
+.forgot{
+	font-size: 14px;
+	color: #737373;
+	font-weight: lighter;
+	margin-bottom: 15px;
+
+}
+.sign{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 350px;
+	border: none solid #d2d2d2;
+	height: 60px;
+	margin: 20px;
+}
+.dont{
+	font-size: 13px;
+	font-weight: lighter;
+	color: black;
+	margin: 2px;
+}
+.sign-text{
+	font-size: 13px;
+	color: #47afff;
+	font-weight: bolder;
+	margin: 2px;
+
+}
+
+.text-help{
+	display: flex;
+	margin: 0;
+	color: #737373;
+	margin-top: -10px;
+	font-size: 10px;
+
+}
+.img-sp{
+	display: flex;
+	margin: 0;
+}
+.img-sp img{
+	display: flex;
+	width: 78px;
+	height: 25px;
+	padding: -15px -15px;
+	
+}
